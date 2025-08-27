@@ -6,6 +6,14 @@ This repository contains official releases of the SRE IDE desktop application.
 
 ### Latest Release: v0.1.0
 
+
+![image](./images/agents.png)
+![image](./images/cloud.png)
+![image](./images/debug.png)
+![image](./images/invets.png)
+![image](./images/main.png)
+![image](./images/sett.png)
+
 **macOS (Apple Silicon)**
 - [SRE IDE v0.1.0 - macOS ARM64](releases/v0.1.0/sre-ide-v0.1.0-macos-arm64.dmg)
 - [SRE IDE v0.1.0 - macOS ARM64 (Direct Install)](releases/v0.1.0/sre-ide-v0.1.0-macos-arm64.zip)
