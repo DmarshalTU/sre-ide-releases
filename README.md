@@ -14,9 +14,25 @@ This repository contains official releases of the SRE IDE desktop application.
 ![image](./images/main.png)
 ![image](./images/sett.png)
 
+
+### 🔒 Security Disclaimer
+
+**Important**: This application is developed by an independent enthusiast, not a verified developer. Use at your own discretion.
+
 **macOS (Apple Silicon)**
 - [SRE IDE v0.1.0 - macOS ARM64](releases/v0.1.0/sre-ide-v0.1.0-macos-arm64.dmg)
 - [SRE IDE v0.1.0 - macOS ARM64 (Direct Install)](releases/v0.1.0/sre-ide-v0.1.0-macos-arm64.zip)
+
+### ⚠️ macOS Security Notice
+
+If you encounter a "damaged" or "unidentified developer" error when trying to open SRE IDE, this is due to macOS Gatekeeper security. To resolve this:
+
+1. **Option 1 (Recommended)**: Right-click the app and select "Open" from the context menu
+2. **Option 2**: Use Terminal to remove the quarantine attribute:
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/sre-ide.app
+   ```
+
 
 **Windows**
 - [SRE IDE v0.1.0 - Windows x64](releases/v0.1.0/sre-ide-v0.1.0-windows-x64.msi)
